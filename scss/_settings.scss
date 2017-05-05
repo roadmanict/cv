@@ -46,12 +46,21 @@
 // 1. Global
 // ---------
 
+$primary: #16A8CC;
+$secondary: #A0A0A0;
+$palette-three: #F2F2F2;
+$palette-four: #00CCFF;
+$palette-five: #D9D9DC;
+
+$fa-font-path: "../bower_components/font-awesome/fonts" !default;
+
+
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: $primary,
+  secondary: $secondary,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,

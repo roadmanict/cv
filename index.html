@@ -1,168 +1,205 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
+</head>
+<body>
+
+<div class="row align-center intro">
+    <div class="small-8 medium-3 columns profile-image">
+        <img src="images/profile.jpg" alt="Profile picture" class="thumbnail"/>
     </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+    <div class="small-12 medium-9 align-self-middle columns personal">
+        <h1>Geert Weggemans<br/>
+            <small>Allround Developer</small>
+        </h1>
+    </div>
+</div>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="primary callout">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="input-group">
-                  <input type="text" placeholder="small-9.columns" class="input-group-field" />
-                  <span class="input-group-label">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="button">Simple Button</a><br/>       
-        <a href="#" class="success button">Success Btn</a><br/>
-        <a href="#" class="alert button">Alert Btn</a><br/>
-        <a href="#" class="secondary button">Secondary Btn</a></p>           
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
+<div class="row">
+    <div class="small-12 medium-3 columns contact-info">
+        <ul class="no-bullet">
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>
+                +31 6 22 32 46 71
+            </li>
+            <li><a href="mailto:geert@gweggemans.nl"><i class="fa fa-envelope" aria-hidden="true"></i>
+                geert@gweggemans.nl</a></li>
+            <li><a href="https://nl.linkedin.com/in/gweggemans"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                nl.linkedin.com/in/gweggemans</a></li>
+            <li><a href="https://github.com/roadmanict"><i class="fa fa-github" aria-hidden="true"></i>
+                github.com/roadmanict</a>
+            </li>
+            <li><a href="https://www.gweggemans.nl"><i class="fa fa-info-circle" aria-hidden="true"></i>
+                gweggemans.nl</a></li>
+        </ul>
     </div>
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/what-input/dist/what-input.js"></script>
-    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    <div class="small-12 medium-9 columns profile">
+        <h2>Profile</h2>
+        <p class="text-left">Experienced Developer with a demonstrated history of working in the information technology
+            industry.
+            Specially interested in DevOps, Automation and TDD. Strong engineering professional with a Bachelor’s Degree
+            focused in Computer Science from Hanzehogeschool Groningen.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="small-12 medium-3 columns skill">
+        <h2>Skills</h2>
+        <div id="skills"></div>
+
+        <h2>Languages</h2>
+        <div id="languages"></div>
+    </div>
+
+    <div class="small-12 medium-9 columns experience">
+        <h2>Experience</h2>
+        <h3>IBM CIC Groningen
+            <small>okt-2015 - present</small>
+        </h3>
+        <p>While working for IBM CIC I took on the following projects.</p>
+
+        <div class="project">
+            <h4>Jumbo Mobile
+                <small>nov-2016 - present</small>
+            </h4>
+            <p><strong>Backend Developer:</strong> Working as lead backend developer for the Jumbo Mobile app. My
+                responsibilities include taking over the codebase from a third party and make it my own, mentoring a
+                junior, aligning with Jumbo teams about api’s, improving code quality.
+            </p>
+        </div>
+
+        <div class="project">
+            <h4>TMG
+                <small>aug-2016 - nov-2016</small>
+            </h4>
+            <p><strong>Backend Developer:</strong> On this project I helped creating the backend for a mobile app for
+                TMG.
+                In the app users
+                must be able to chat with each other, I created most of the functionality for this in the backend.
+                Technologies I used on this project were Typescript and Docker.</p>
+        </div>
+
+        <div class="project">
+            <h4>KLM Open
+                <small>jul-2016 - aug-2016</small>
+            </h4>
+            <p><strong>Backend / Frontend Developer:</strong> While on this project I worked on a hybrid app for the KLM
+                Open golf tournament
+                . I helped creating a mobile application that was downloaded by 12000+ users. In the app I was
+                responsible
+                for creating the "closest to the pin" game. In this game users could bet on a golf player who they would
+                think to be closest to the pin. This meant that the backend of the app had to be able to process
+                thousands
+                of bets in a short amount of time. The app is still in the App Store as a showcase for IBM. Technologies
+                I
+                used on this project were IBM Internet of things foundation, MQTT, IBM ApiConnect, Cloudant, MobileFirst
+                8
+                and Ionic Framework.</p>
+        </div>
+
+        <div class="project">
+            <h4>Dictu - Ministery of Economic Affairs
+                <small>jan-2016 - jul-2016</small>
+            </h4>
+            <p><strong>GIS Application Developer:</strong> While working for DICTU I helped on several GIS projects with
+                tools from ArcGIS. For example an interactive map with all the buildings of the municipality.</p>
+        </div>
+
+    </div>
+
+    <div class="small-12 columns education">
+        <h2>Education</h2>
+        <h3>Hanzehogeschool Groningen
+            <small>2010 - 2015</small>
+        </h3>
+        <p>Bachelor in Computing Science: Specialization in Software Development</p>
+        <h3>Alfa College Hoogeveen
+            <small>2005 - 2010</small>
+        </h3>
+        <p>System Administrator</p>
+
+        <h2>Interests</h2>
+        <ul>
+            <li>Devops</li>
+            <li>TDD</li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/what-input/dist/what-input.js"></script>
+<script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+<script src="js/app.js"></script>
+<script type="application/javascript">
+    (function () {
+        var skills = [
+            {
+                name: 'Typescript / NodeJS',
+                percentage: 90
+            },
+            {
+                name: 'Docker',
+                percentage: 90
+            },
+            {
+                name: 'Javascript / NodeJS',
+                percentage: 80
+            },
+            {
+                name: 'Django / Python',
+                percentage: 80
+            },
+            {
+                name: 'Ansible',
+                percentage: 70
+            },
+            {
+                name: 'Java',
+                percentage: 70
+            },
+            {
+                name: 'AngularJS',
+                percentage: 70
+            },
+            {
+                name: 'ArcGIS',
+                percentage: 70
+            }
+        ];
+
+        var languages = [
+            {
+                name: 'Dutch',
+                percentage: 95
+            },
+            {
+                name: 'English',
+                percentage: 90
+            }
+        ];
+
+        skills.forEach(function (skill) {
+            appendProgressBar($('#skills'), skill.name, skill.percentage);
+        });
+
+        languages.forEach(function (skill) {
+            appendProgressBar($('#languages'), skill.name, skill.percentage);
+        });
+
+        function appendProgressBar(jquery, name, percentage) {
+            jquery.append('<div class=\"progress\" role=\"progressbar\" tabindex=\"0\" aria-valuenow=\"' + percentage + '\" aria-valuemin=\"0\"' +
+                'aria-valuetext=\"90 percent\" aria-valuemax=\"100\">' +
+                '<div class=\"progress-meter\" style=\"width: ' + percentage + '%\"><p class=\"progress-meter-text\">' + name + '</p></div>' +
+                '</div>');
+        }
+    })();
+</script>
+</body>
 </html>
