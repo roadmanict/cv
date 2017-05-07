@@ -125,6 +125,17 @@ small {
   text-align: center;
 }
 
+#interests {
+  list-style-type: none;
+  margin-left: 0;
+  padding-bottom: 1rem;
+
+  li {
+    float: left;
+    margin-right: 0.5rem;
+  }
+}
+
 @include breakpoint(medium only) {
   html {
     font-size: 80%;
@@ -171,12 +182,20 @@ small {
     color: $primary !important;
   }
 
+  p {
+    line-height: 1.5rem;
+  }
+
   .sidebar {
     border-left: none;
   }
 
   #skills .progress-meter-text {
     color: $white;
+  }
+
+  .main {
+    font-size: 90%;
   }
 
   a[href]:after {

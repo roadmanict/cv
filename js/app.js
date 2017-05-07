@@ -19,7 +19,15 @@ $(document).foundation();
             percentage: 80
         },
         {
+            name: 'Linux',
+            percentage: 70
+        },
+        {
             name: 'Ansible',
+            percentage: 70
+        },
+        {
+            name: 'Cucumber/Gherkin',
             percentage: 70
         },
         {
