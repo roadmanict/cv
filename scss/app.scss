@@ -66,8 +66,13 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-$sidebar-background-color: $palette-three;
-$sidebar-border-color: $palette-four;
+$sidebar-background-color: $soft;
+$sidebar-border-color: $middle;
+$sidebar-header-color: $secondary;
+$sidebar-text-color: $strong;
+
+$main-border-color: $strong;
+$main-header-color: $primary;
 
 h1 {
   color: $primary;
@@ -75,19 +80,19 @@ h1 {
 }
 
 h1 small {
-  color: $secondary;
+  color: $strong;
 }
 
 h2 {
-  color: $primary;
+  color: $main-header-color;
   font-size: 160%;
-  border-bottom: $palette-five solid 2px;
+  border-bottom: $main-border-color solid 2px;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 h3 {
-  color: $secondary;
+  color: $strong;
   font-size: 140%;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -116,23 +121,32 @@ small {
 
 .contact-info li {
   line-height: 2rem;
+  color: $sidebar-text-color;
+
+  a {
+    color: $sidebar-text-color;
+  }
+
+  i {
+    color: $primary;
+    display: inline-block;
+    width: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
 }
 
-.contact-info i {
-  display: inline-block;
-  width: 2rem;
-  font-size: 1.4rem;
-  text-align: center;
-}
 
 #interests {
   list-style-type: none;
   margin-left: 0;
-  padding-bottom: 1rem;
 
   li {
     float: left;
-    margin-right: 0.5rem;
+    background: $primary;
+    color: $white;
+    padding: 0.1rem 0.2rem;
+    margin: 0.2rem 0.2rem 0 0;
   }
 }
 
@@ -143,11 +157,15 @@ small {
 }
 
 .sidebar {
+  h1, h2, h3 {
+    color: $sidebar-header-color;
+  }
   h1 {
     font-size: 140%;
   }
   h2 {
     font-size: 120%;
+    border-bottom: $sidebar-border-color solid 2px;
   }
   h3 {
     font-size: 110%;
