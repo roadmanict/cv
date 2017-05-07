@@ -39,7 +39,7 @@ $(document).foundation();
             percentage: 70
         },
         {
-            name: 'ArcGIS',
+            name: 'GIS / ArcGIS',
             percentage: 70
         }
     ];
@@ -64,7 +64,7 @@ $(document).foundation();
     });
 
     function appendProgressBar(jquery, name, percentage) {
-        jquery.append('<div class=\"progress\" role=\"progressbar\" tabindex=\"0\" aria-valuenow=\"' + percentage + '\" aria-valuemin=\"0\"' +
+        jquery.append('<div class=\"progress\" role=\"progressbar\" tabindex=\"0\" aria-valuenow=\"' + percentage + '\" aria-valuemin=\"0\" ' +
             'aria-valuetext=\"90 percent\" aria-valuemax=\"100\">' +
             '<div class=\"progress-meter\" style=\"width: ' + percentage + '%\"><p class=\"progress-meter-text\">' + name + '</p></div>' +
             '</div>');
