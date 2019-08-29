@@ -5,10 +5,10 @@
   "main": "gulpfile.js",
   "devDependencies": {
     "bower": "^1.8.0",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-load-plugins": "^1.1.0",
-    "gulp-sass": "^2.1.0"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-sass": "^4.0.2"
   },
   "scripts": {
     "start": "gulp",
@@ -26,6 +26,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "gulp-autoprefixer": "^3.1.0"
+    "gulp-autoprefixer": "^7.0.0"
   }
 }
