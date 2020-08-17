@@ -4,54 +4,38 @@ $(document).foundation();
     var skills = [
         {
             name: 'Typescript / NodeJS',
-            percentage: 90
+            percentage: 80
         },
         {
             name: 'Docker',
-            percentage: 90
-        },
-        {
-            name: 'Javascript / NodeJS',
             percentage: 80
         },
         {
-            name: 'Django / Python',
-            percentage: 80
+            name: 'Kubernetes / Helm',
+            percentage: 60
         },
         {
-            name: 'Linux',
-            percentage: 70
+            name: 'Bash / Linux',
+            percentage: 60
         },
         {
             name: 'Ansible',
-            percentage: 70
-        },
-        {
-            name: 'Cucumber/Gherkin',
-            percentage: 70
+            percentage: 40
         },
         {
             name: 'Java',
-            percentage: 70
+            percentage: 40
         },
-        {
-            name: 'AngularJS',
-            percentage: 70
-        },
-        {
-            name: 'GIS / ArcGIS',
-            percentage: 70
-        }
     ];
 
     var languages = [
         {
             name: 'Dutch',
-            percentage: 95
+            percentage: 90
         },
         {
             name: 'English',
-            percentage: 90
+            percentage: 80
         }
     ];
 
