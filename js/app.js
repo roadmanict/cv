@@ -11,12 +11,20 @@ $(document).foundation();
             percentage: 80
         },
         {
+            name: 'Domain Driven Design',
+            percentage: 60
+        },
+        {
             name: 'Kubernetes / Helm',
             percentage: 60
         },
         {
             name: 'Bash / Linux',
             percentage: 60
+        },
+        {
+            name: 'Bazel',
+            percentage: 40
         },
         {
             name: 'Ansible',
