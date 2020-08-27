@@ -181,7 +181,7 @@ small {
     border-bottom: solid 1px $sidebar-border-color;
 
     h1 {
-      font-size: 200%;
+      //font-size: 200%;
     }
   }
 
@@ -193,12 +193,19 @@ small {
 
 @media print {
   html {
-    font-size: 80%;
+    font-size: 80% !important;
   }
 
-  @page {
-    margin: 0;
+  body {
+    width: 21cm;
+    //height: 29.7cm;
+    //margin: 30mm 45mm 30mm 45mm;
+    /* change the margins as you want them to be. */
   }
+  //
+  //@page {
+  //  margin: 0;
+  //}
 
   h1 {
     color: $primary !important;
@@ -208,16 +215,20 @@ small {
     line-height: 1.5rem;
   }
 
-  .sidebar {
+  #sidebar {
     border-left: none;
   }
 
-  #skills .progress-meter-text {
-    color: $white;
-  }
+  //#skills .progress-meter-text {
+  //  color: $white;
+  //}
 
   .main {
     font-size: 90%;
+  }
+
+  a:link, a:visited {
+    text-decoration: none !important;
   }
 
   a[href]:after {

@@ -73,7 +73,6 @@ $strong: #4181B1;
 
 $fa-font-path: "../node_modules/font-awesome/fonts" !default;
 
-
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -106,8 +105,8 @@ $global-flexbox: true;
 $global-prototype-breakpoints: false;
 $global-button-cursor: auto;
 $global-color-pick-contrast-tolerance: 0;
-$print-transparent-backgrounds: true;
-$print-hrefs: true;
+$print-transparent-backgrounds: false;
+$print-hrefs: false;
 
 @include add-foundation-colors;
 
