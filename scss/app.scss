@@ -193,7 +193,7 @@ small {
 
 @media print {
   html {
-    font-size: 80% !important;
+    font-size: 80%;
   }
 
   body {
@@ -213,10 +213,6 @@ small {
 
   p {
     line-height: 1.5rem;
-  }
-
-  #sidebar {
-    border-left: none;
   }
 
   //#skills .progress-meter-text {
