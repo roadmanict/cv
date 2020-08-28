@@ -101,7 +101,15 @@ h3 small {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.5rem;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a[href]:after {
+  content: none;
 }
 
 small {
@@ -154,9 +162,15 @@ small {
   }
 }
 
-@include breakpoint(medium only) {
+@include breakpoint(medium) {
   html {
     font-size: 80%;
+  }
+}
+
+@include breakpoint(large) {
+  .row {
+    width: 21cm;
   }
 }
 
@@ -188,46 +202,5 @@ small {
   @include breakpoint(medium) {
     border: solid 1px $sidebar-border-color;
     margin-top: 1rem;
-  }
-}
-
-@media print {
-  html {
-    font-size: 80%;
-  }
-
-  body {
-    width: 21cm;
-    //height: 29.7cm;
-    //margin: 30mm 45mm 30mm 45mm;
-    /* change the margins as you want them to be. */
-  }
-  //
-  //@page {
-  //  margin: 0;
-  //}
-
-  h1 {
-    color: $primary !important;
-  }
-
-  p {
-    line-height: 1.5rem;
-  }
-
-  //#skills .progress-meter-text {
-  //  color: $white;
-  //}
-
-  .main {
-    font-size: 90%;
-  }
-
-  a:link, a:visited {
-    text-decoration: none !important;
-  }
-
-  a[href]:after {
-    content: none !important;
   }
 }
