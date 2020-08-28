@@ -1,11 +1,7 @@
 # CV
 
-## Compile
-
 ```bash
-cd projectname
 npm install
-bower install
+npm run start
 ```
 
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
